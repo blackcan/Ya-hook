@@ -1,0 +1,85 @@
+.yahook_section_title {
+  background-image: url('chrome-extension://__MSG_@@extension_id__/img/yahoo_16.png');
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.yahook_loading {
+  background-image: url('chrome-extension://__MSG_@@extension_id__/img/loading_pac.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  height: 16px;
+}
+
+.yahook_content {
+  margin: 5px 0;
+}
+
+.yahook_image {
+  margin: 0 2px;
+  height: 157px;
+  width: 157px;
+}
+
+.yahook_parking_info {
+  border-bottom: 1px solid #D9D9D9;
+  padding-bottom: 5px;
+  margin-top: 5px;
+}
+
+.yahook_parking_info:last-child {
+  border: none;
+  padding: 0;
+}
+
+.yahook_label {
+  color: #888;
+  font-weight: bold;
+}
+
+.yahook_movie_info {
+	vertical-align: top;
+}
+
+.yahook_movie_info a {
+  display: block;
+  border-bottom: 1px solid #D9D9D9;
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+}
+
+.yahook_weather_widget {
+  background: #222;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.yahook_weather_low_temp {
+  color: #AAA;
+  font-size: 25px;
+  margin-left: 5px;
+}
+.yahook_weather_high_temp {
+  color: #FFF;
+  font-size: 30px;
+}
+
+.yahook_weather_image {
+  float: right;
+  position: relative;
+  top: -7px;
+  left: -10px;
+  z-index: 1;
+}
+
+.yahook_weather_link {
+  border: none;
+  border-style: none;  
+  text-decoration: none;
+}
+
+.yahook_weather_link:link {
+  text-decoration: none;
+}
+
